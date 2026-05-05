@@ -21,7 +21,7 @@ Un sistem de clasificare a celulelor din sange bazat pe imagini microscopice. Mo
 | Categorie | Clase |
 |---|---|
 | Globule albe / Leucemie | myeloblast, lymphoblast, neutrophil, eosinophil, basophil, monocyte, lymphocyte, reactive lymphocyte, normoblast |
-| Anomalii globule rosii | sickle cell, target cell, schistocyte |
+| Anomalii globule rosii |
 | Trombocite | platelet clump |
 | Paraziti | malaria ring |
 | Normal | normal |
@@ -63,14 +63,6 @@ scikit-learn
 matplotlib
 numpy
 ```
-
-Instaleaza dependintele:
-
-```bash
-pip install torch torchvision flask pillow scikit-learn matplotlib numpy
-```
-
----
 
 ## Pregatirea datelor
 
