@@ -10,7 +10,7 @@ python app.py
 
 Changes from original
 ─────────────────────
-  - Uses EfficientNet-B4 (matches updated .py)
+  - Uses EfficientNet-B4 (matches updated train.py)
   - Exposes hard_class / hard_note fields from updated disease_mapping.py
   - /api/status now reports hard classes so the frontend can flag them
 """
@@ -58,7 +58,7 @@ def load_model(checkpoint_path: str = "checkpoints/best_model.pt"):
 
     num_classes = len(CLASS_NAMES)
 
-    # EfficientNet-B4 — matches updated .py
+    # EfficientNet-B4 — matches updated train.py
     model = models.efficientnet_b4(weights=None)
     in_features = model.classifier[1].in_features
     model.classifier = nn.Sequential(
