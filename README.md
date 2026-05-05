@@ -21,7 +21,6 @@ Un sistem de clasificare a celulelor din sange bazat pe imagini microscopice. Mo
 | Categorie | Clase |
 |---|---|
 | Globule albe / Leucemie | myeloblast, lymphoblast, neutrophil, eosinophil, basophil, monocyte, lymphocyte, reactive lymphocyte, normoblast |
-| Anomalii globule rosii |
 | Trombocite | platelet clump |
 | Paraziti | malaria ring |
 | Normal | normal |
