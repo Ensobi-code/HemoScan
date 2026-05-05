@@ -1,0 +1,2 @@
+- Introduceti folderuri cu denumiri de celule pentru antrenare
+-- De exemplu: normoblast, lymphocyte, myelocyte, lymphocyte_reactive
